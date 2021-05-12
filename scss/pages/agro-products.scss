@@ -1,0 +1,105 @@
+.banner-default{
+    height: 200px!important;
+    &-inner{
+        height: 100%;
+        width: 100%;
+    }
+    .banner-main__slide::before{
+        width: 200px!important;
+        height: 178px!important;
+    }
+    .banner-main__slide::after{
+        z-index: 0;
+    }
+    .banner-content::after{
+        display: none;
+    }
+}
+
+.header-main .navbar-collapse ul li.active{
+    a{
+        color: $c-green-up;
+        font-weight: bold;
+    }
+}
+.argo-wapper{
+    .category{
+        padding-top: 30px;
+        .title{
+            padding: 15px 25px;
+            
+        }
+        ul{
+            box-shadow: 0 1px 2px 0 rgba(0,0,0,0.30);
+            li{
+                margin: 0;
+                border: 1px solid #D8D8D8;
+                border-top: none;
+                list-style: none;
+                padding: 15px 25px;
+                a{
+                    font-size: 16px;
+                }
+            }
+            li.active{
+                a{
+                    font-weight: bold;
+                    color: #7EA52E;
+                }
+            }
+        }
+    }
+    
+    .slick-dotted.slick-slider{
+        margin: 0;
+    }
+    .argo-slide{
+
+        .slick-list{
+            padding: 20px 0;
+        }
+        .slick-dots{
+            bottom: 3%;
+        }
+        .slick-dots li button:before {
+            background: $c-green;
+        }
+        .slick-dots li button:after {
+            background: $c-green;
+        }
+        .slick-dots li.slick-active button:after {
+            border-bottom: 4px solid $c-green;
+        }
+        .products-inner .slide-products-inner{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .products{
+            &-inner:first-child{
+                .slide-argo{
+                    background: url(/images/la-grey.png) no-repeat left 15% bottom/25%;
+                    margin: 0 !important;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+//RESPONSIVE FOR IPAD
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .argo-wapper .argo-slide .products-inner .slide-products-inner{
+       padding-right: 0;
+       padding-left: 0;
+    }
+    .argo-wapper .category .title{
+        padding: 10px 10px;
+    }
+    .argo-wapper .category ul li{
+        padding: 10px 10px;
+    }
+    
+}
+ 
+

@@ -1,0 +1,140 @@
+//COLOR TU PHUONG
+$c-orange: #DF6A2E;
+$c-font: #989898;
+$c-green: #7EA52E;
+$c-green-down: #4E7A6C;
+$c-green-up: #00461C;
+$c-green-default: #7A9A01;
+$c-green-font:#CBE19F;
+$c-black: #333333;
+$c-pink: #BE4598;
+$c-grey: #BDBDBD;
+$c-grey-up: #F8F8F8;
+$c-grey-upper: #E6E6E6;
+$c-white: #fff;
+$c-blue: #467EE0;
+
+.c-white{
+    color: $c-white;
+}
+.c-black{
+    color: $c-black;
+}
+.c-green-font{
+    color: $c-green-font;
+
+}
+.c-orange{
+    color: $c-orange;
+}
+.c-font{
+    color: $c-font;
+}
+.c-green{
+    color: $c-green;
+}
+.c-green-down{
+    color: $c-green-down;
+}
+.c-green-up{
+    color: $c-green-up;
+}
+.c-pink{
+    color: $c-pink;
+}
+.c-grey{
+    color: $c-grey;
+}
+//BACKGROUND
+
+.bg-black{
+    background-color: $c-black;
+}
+.bg-orange{
+    background-color: $c-orange;
+}
+.bg-font{
+    background-color: $c-font;
+}
+.bg-green-default{
+    background-color: $c-green-default;
+}
+.bg-green{
+    background-color: $c-green;
+}
+.bg-green-down{
+    background-color: $c-green-down;
+}
+.bg-green-up{
+    background-color: $c-green-up;
+}
+.bg-pink{
+    background-color: $c-pink;
+}
+.bg-grey{
+    background-color: $c-grey;
+}
+.bg-grey-up{
+    background-color: $c-grey-up;
+}
+//FONT-SIZE
+
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-30{
+    font-size: 30px;
+}
+
+
+
+
+.fs-40{
+    font-size: 40px;
+}
+@media (max-width: 767px) {
+   
+    .fs-16{
+        font-size: 14px;
+    }
+    .fs-18{
+        font-size: 16px;
+    }
+    .fs-24{
+        font-size: 18px;
+    }
+    .fs-32{
+        font-size: 24px;
+    }
+    .fs-30{
+        font-size: 24px;
+    }
+
+   
+    .fs-40{
+        font-size: 24px;
+    }
+}
+//FONT-FAMILY
+$font-primary: 'Helvetica Neue',
+sans-serif;
+$font-default: 'Bai Jamjuree', sans-serif;
+$font-awesome: "FontAwesome";

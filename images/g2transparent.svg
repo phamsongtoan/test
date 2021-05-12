@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="245px" viewBox="0 0 246 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M100,0 L244.47983,0 L244.47983,0 L244.47983,145 C244.47983,200.228475 199.708305,245 144.47983,245 L2.84217094e-14,245 L2.84217094e-14,245 L2.84217094e-14,100 C3.58690266e-14,44.771525 44.771525,1.01453063e-14 100,0 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-0.8%" width="101.6%" height="101.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M107.73159,18 L226.518047,18 L226.518047,18 L226.518047,138.22807 C226.518047,187.255453 186.7735,227 137.746117,227 L18.9596603,227 L18.9596603,227 L18.9596603,106.77193 C18.9596603,57.7445468 58.7042071,18 107.73159,18 Z" id="path-3"></path>
+        <filter x="-3.4%" y="-2.4%" width="106.7%" height="106.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="x.Home.Fruit" transform="translate(-359.000000, -2394.000000)">
+            <g id="COMMON-DISEASES" transform="translate(0.000000, 2212.000000)">
+                <g id="DISEASE-TYPES" transform="translate(134.000000, 80.000000)">
+                    <g id="Group-5" transform="translate(225.520170, 102.000000)">
+                        <g id="Rectangle">
+                            <use fill="#EFEFEF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Rectangle-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <text id="Food-Crops" font-family="Helvetica" font-size="24" font-weight="normal" fill="#E6E6E6">
+                            <tspan x="87.5758526" y="126">FOOD</tspan>
+                            <tspan x="79.5660869" y="155">CROPS</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

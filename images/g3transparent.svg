@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="244px" viewBox="0 0 245 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M100,0 L244.47983,0 L244.47983,0 L244.47983,144 C244.47983,199.228475 199.708305,244 144.47983,244 L-8.52651283e-14,244 L-8.52651283e-14,244 L-8.52651283e-14,100 C-7.78178111e-14,44.771525 44.771525,-4.06554845e-15 100,0 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-0.8%" width="101.6%" height="101.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M106.733713,18 L225.52017,18 L225.52017,18 L225.52017,137.22807 C225.52017,186.255453 185.775623,226 136.74824,226 L17.9617834,226 L17.9617834,226 L17.9617834,106.77193 C17.9617834,57.7445468 57.7063302,18 106.733713,18 Z" id="path-3"></path>
+        <filter x="-3.4%" y="-2.4%" width="106.7%" height="106.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="x.Home" transform="translate(-134.000000, -2621.000000)">
+            <g id="COMMON-DISEASES" transform="translate(1.000000, 2212.000000)">
+                <g id="DISEASE-TYPES" transform="translate(133.000000, 80.000000)">
+                    <g id="Group-5" transform="translate(0.000000, 329.000000)">
+                        <g id="Rectangle" transform="translate(122.239915, 122.000000) scale(-1, 1) translate(-122.239915, -122.000000) ">
+                            <use fill="#EFEFEF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Rectangle-Copy" transform="translate(121.740977, 122.000000) scale(-1, 1) translate(-121.740977, -122.000000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <text id="Fruit-Trees" font-family="Helvetica" font-size="24" font-weight="normal" fill="#E6E6E6">
+                            <tspan x="86.9137432" y="126">FRUIT</tspan>
+                            <tspan x="82.2321026" y="155">TREES</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

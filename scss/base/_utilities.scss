@@ -1,0 +1,201 @@
+.mt-20px {
+    margin-top: 20px;
+}
+.mb-20px {
+    margin-bottom: 20px;
+}
+.pt-20px {
+    padding-top: 20px;
+}
+.pb-20px {
+    padding-bottom: 20px;
+}
+.mt-25px {
+    margin-top: 25px;
+}
+
+.mb-25px {
+    margin-bottom: 25px;
+}
+
+.mb-30px {
+    margin-bottom: 30px;
+}
+
+.mt-30px {
+    margin-top: 30px;
+}
+
+.pr-30px {
+    padding-right: 30px;
+}
+
+.pl-30px {
+    padding-left: 30px;
+}
+.pt-30px {
+    padding-top: 30px;
+}
+.pb-30px {
+    padding-bottom: 30px;
+}
+.mt-60px {
+    margin-top: 60px;
+}
+
+.mb-60px {
+    margin-bottom: 60px;
+}
+
+.pt-40px {
+    padding-top: 40px;
+}
+
+.pb-40px {
+    padding-bottom: 40px;
+}
+.pl-40px {
+    padding-left: 40px;
+}
+
+.pr-40px {
+    padding-right: 40px;
+}
+.mt-40px {
+    margin-top: 40px;
+}
+
+.mb-40px {
+    margin-bottom: 40px;
+}
+.mt-50px{
+    margin-top: 50px;
+}
+.mb-50px{
+    margin-bottom: 50px;
+}
+.pt-45px {
+    padding-top: 45px;
+}
+
+.pb-45px {
+    padding-bottom: 45px;
+}
+.pt-50px {
+    padding-top: 50px;
+}
+
+.pb-50px {
+    padding-bottom: 50px;
+}
+.pl-45px {
+    padding-left: 45px;
+}
+
+.pt-60px {
+    padding-top: 60px;
+}
+
+.pb-60px {
+    padding-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+    .mt-25px {
+        margin-top: 15px;
+    }
+    .mb-25px {
+        margin-bottom: 15px;
+    }
+    .mb-30px {
+        margin-bottom: 15px;
+    }
+    .mt-30px {
+        margin-top: 15px;
+    }
+    .pr-30px {
+        padding-right: 15px;
+    }
+    .pl-30px {
+        padding-left: 15px;
+    }
+    .mt-60px {
+        margin-top: 30px;
+    }
+    .mb-60px {
+        margin-bottom: 30px;
+    }
+    .pt-40px {
+        padding-top: 20px;
+    }
+    .pb-40px {
+        padding-bottom: 20px;
+    }
+    .pr-40px {
+        padding-right: 20px;
+    }
+    .pl-40px {
+        padding-left: 20px;
+    }
+    .mt-40px {
+        margin-top: 20px;
+    }
+    .mb-40px {
+        margin-bottom: 20px;
+    }
+    .pt-45px {
+        padding-top: 20px;
+    }
+    .pb-45px {
+        padding-bottom: 20px;
+    }
+    .pt-60px {
+        padding-top: 30px;
+    }
+    .pb-60px {
+        padding-bottom: 30px;
+    }
+    .pl-45px {
+        padding-left: 0;
+    }
+}
+
+//RESPONSIVE
+
+/* //1200px/16 */
+
+@media only screen and (max-width: 75em) {}
+
+@media (min-width: 75em) {}
+
+
+/* //900px/16 */
+
+@media only screen and (max-width: 56.25em) {}
+
+@media (min-width: 56.25em) {}
+
+
+/* 768 */
+
+@media only screen and (max-width: 48em) {}
+
+@media (min-width: 48em) {}
+
+
+/* 576 */
+
+@media only screen and (max-width: 36em) {}
+
+
+/*375 px*/
+
+@media only screen and (max-width: 23.4375em) {}
+
+//REPONSIVE IPAD
+@media (min-width: 48em) and (max-width: 64em) {
+    /* CSS */
+}
+
+//REPONSIVE IPAD PRO
+@media (min-width: 64em) and (max-width: 85.375em) {}
