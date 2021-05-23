@@ -603,46 +603,52 @@ body {
         left: 2%;
         width: 250px;
         height: 222px;
-        background: url(/images/labanner.png) no-repeat left bottom/contain;
+        background: url(../../images/labanner.png) no-repeat left bottom/contain;
         z-index: 10; }
-      .banner-main__slide img {
+      .banner-main__slide .slide-image img {
         width: 100%;
         height: 100%;
         object-fit: cover; }
-  .banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    width: 100%;
-    font-family: "Bai Jamjuree", sans-serif; }
-    .banner-content::after {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      content: '';
-      height: 150%;
-      width: 2px;
-      background: #fff;
-      transform: translateY(-50%) rotate(25deg); }
-    .banner-content .heading-banner-left:nth-child(2) {
-      padding-right: 24px; }
-    .banner-content .heading-banner-left:nth-child(3) {
-      padding-right: 48px; }
-    .banner-content .heading-banner-right:nth-child(2) {
-      padding-left: 24px; }
-    .banner-content .heading-banner-right:nth-child(1) {
-      padding-left: 48px; }
+      .banner-main__slide .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        width: 100%;
+        font-family: "Bai Jamjuree", sans-serif;
+        z-index: 2; }
+        .banner-main__slide .banner-content::after {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          content: '';
+          height: 150%;
+          width: 2px;
+          background: #fff;
+          transform: translateY(-50%) rotate(25deg); }
+        .banner-main__slide .banner-content .heading-banner-left:nth-child(2) {
+          padding-right: 24px; }
+        .banner-main__slide .banner-content .heading-banner-left:nth-child(3) {
+          padding-right: 48px; }
+        .banner-main__slide .banner-content .heading-banner-right:nth-child(2) {
+          padding-left: 24px; }
+        .banner-main__slide .banner-content .heading-banner-right:nth-child(1) {
+          padding-left: 48px; }
 
 .show {
   opacity: 1;
   left: 0;
   z-index: 990; }
 
-.intro-slide .intro-inner img {
-  height: 79px;
-  margin: 0 auto; }
+.intro-slide .intro-inner {
+  padding-right: 20px;
+  padding-left: 20px; }
+  .intro-slide .intro-inner img {
+    height: 79px;
+    margin: 0 auto; }
+  .intro-slide .intro-inner__content p {
+    margin: 0; }
 
 .intro-slide .slick-dots {
   bottom: -25%; }
@@ -658,12 +664,18 @@ body {
 
 .news-inner {
   position: relative; }
-  .news-inner .heading {
-    border-bottom: 1px solid #E6E6E6; }
+  .news-inner .position-relative {
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .news-inner .position-relative .heading {
+      margin: 0; }
+    .news-inner .position-relative .button {
+      position: static;
+      transform: none;
+      top: 0; }
   .news-inner .button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     right: 0;
     display: flex; }
     .news-inner .button .button-prev {
@@ -707,31 +719,36 @@ body {
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       text-overflow: ellipsis; }
+      .news-inner .slide-inner .content p {
+        margin: 0; }
 
 .products-inner {
   position: relative; }
-  .products-inner .btn-more {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    padding: 10px 0; }
-  .products-inner .heading {
-    border-bottom: 1px solid #E6E6E6; }
+  .products-inner .position-relative {
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .products-inner .position-relative .heading {
+      margin: 0; }
+    .products-inner .position-relative .btn-more {
+      position: static;
+      transform: none;
+      top: 0; }
   .products-inner .slide-products {
-    background: url(/images/la-grey.png) no-repeat left 15% bottom/25%;
+    background: url(images/la-grey.png) no-repeat left 15% bottom/25%;
     margin: 0 !important;
     cursor: pointer; }
     .products-inner .slide-products-inner {
       padding: 0 40px;
       padding-top: 35px;
       transition: all 0.5s ease; }
-      .products-inner .slide-products-inner .sticker {
+      .products-inner .slide-products-inner .sticket {
         width: 100%;
         height: 28px;
         display: flex;
         justify-content: flex-end; }
-        .products-inner .slide-products-inner .sticker img {
+        .products-inner .slide-products-inner .sticket img {
           width: 70px;
           height: auto; }
       .products-inner .slide-products-inner .image img {
@@ -1065,6 +1082,8 @@ body {
       border-radius: 110px;
       transition: all 0.4s ease;
       cursor: pointer; }
+      .common .common-right__inner .common-slide__inner .descreption p {
+        margin: 0; }
       .common .common-right__inner .common-slide__inner:hover {
         box-shadow: 10px 30px 20px 0 rgba(28, 61, 37, 0.2); }
       .common .common-right__inner .common-slide__inner img {
