@@ -1,0 +1,93 @@
+.argo-detail{
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    .infor-image{
+        padding: 15px 40px;
+        display: flex;
+        justify-content: center;
+        background: #F2F2F2;
+        // box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+        min-height: 370px;
+    }
+    .infor-main{
+        &-title{
+            padding-bottom: 5px;
+            border-bottom: 2px solid $c-green;
+        }
+        &-desc{
+            padding: 10px 0;
+            border-bottom: 1px solid $c-grey;
+        }
+    }
+    a{
+        margin-top: 25px;
+        display: inline-block;
+        width: 50%;
+        padding: 10px 0;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .direction{
+        margin-top: 45px;
+        &-wrapper{
+            border-bottom: 2px solid $c-green;
+        }
+        &-title{
+            display: inline-block;
+            padding: 5px 30px;
+            border-radius:  100px 0 100px 0;
+            color: #fff;
+        }
+        &-content{
+            border-bottom: 1px solid $c-grey;
+            padding: 10px 0;
+            ul{
+                li{
+                    list-style: none;
+                    padding-left: 20px;
+                    position: relative;
+                    &:before{
+                        position: absolute;
+                        content: '';
+                        height: 2px;
+                        width: 10px;
+                        left: 0;
+                        top: 50%;
+                        background: $c-font;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* RESPONSIVE FOR IPAD  PRO*/
+@media (min-width: 1024px) and (max-width: 1366px){
+    .argo-detail .infor-image{
+        min-height: auto;
+    }
+    .argo-detail{
+        padding-bottom: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .argo-detail .infor-image{
+        min-height: auto;
+    }
+    .argo-detail{
+        padding-bottom: 40px;
+    }
+    .argo-detail{
+        margin-left: 0;
+    }
+    
+}
+@media (max-width: 767px){
+    .argo-detail{
+        margin-left: 0;
+    }
+}

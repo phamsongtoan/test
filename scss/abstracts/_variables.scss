@@ -7,6 +7,7 @@ $c-green-up: #00461C;
 $c-green-default: #7A9A01;
 $c-green-font:#CBE19F;
 $c-black: #333333;
+$c-white: #ffff;
 $c-pink: #BE4598;
 $c-grey: #BDBDBD;
 $c-grey-up: #F8F8F8;
@@ -85,6 +86,9 @@ $c-blue: #467EE0;
 .fs-12{
     font-size: 12px;
 }
+.fs-13{
+    font-size: 13px;
+}
 .fs-14{
     font-size: 14px;
 }
@@ -103,10 +107,6 @@ $c-blue: #467EE0;
 .fs-30{
     font-size: 30px;
 }
-
-
-
-
 .fs-40{
     font-size: 40px;
 }
@@ -127,8 +127,6 @@ $c-blue: #467EE0;
     .fs-30{
         font-size: 24px;
     }
-
-   
     .fs-40{
         font-size: 24px;
     }

@@ -1,7 +1,9 @@
+
 // .pagination {
 //     margin: 0;
 //     display: flex;
 //     align-items: center;
+//     justify-content: flex-end;
 //     .page-item:first-child {
 //         .page-link {
 //             &::after {
@@ -74,6 +76,7 @@
 //     }
 // }
 
+
 // @media (max-width: 767px) {
 //     .pagination {
 //         .page-item {
@@ -94,3 +97,62 @@
 //         }
 //     }
 // }
+
+
+.pagination {
+    li {
+        display: flex;
+        align-items: center;
+        margin-right: 12px;
+        a {
+            border: none;
+            position: relative;
+            font-size: 14px;
+            color: $c-font;
+            margin-bottom: 0;
+            padding: 2px 8px;
+            background: transparent;
+            span{
+                i{
+                    font-size: 32px;
+                }
+            }
+            &:hover{
+                background: $c-green;
+                color: #fff;
+                font-weight: bold;
+                border-radius: 50%;
+            }
+            .button-prev {
+                color: #000;
+            }
+            .button-next {
+                color: #000;
+            }
+        }
+    }
+    .active {
+        a {
+            background: $c-green;
+            border-radius: 50%;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff!important;
+        }
+    }
+    li [aria-label="Previous"]:hover{
+        background:transparent;
+            color: #000;
+    }
+
+    li [aria-label="Next"]:hover{
+        background:transparent;
+            color: #000;
+    }
+    li [aria-label="Previous"]{
+        color: $c-grey;
+    }
+    li [aria-label="Next"]{
+        color: $c-grey;
+    }
+}

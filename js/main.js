@@ -19,15 +19,6 @@ $(document).ready(function() {
 			}
 	});
 
-    // //HIDDEN COLLAPSE
-    // $(".button-cancle").click(function(){
-    //          $(this).parents(".collapse").removeClass('show');
-    //     });
-    // $('.buy-filter__inner--nav button[data-toggle="collapse"]').click(function(e){
-    //       var $id = $(this).attr('href');
-    //       $('.collapse:not('+$id+')').removeClass('show');
-    // });
-
     //HEADER
     $('.banner-main').slick({
         autoplay: true,
@@ -66,9 +57,8 @@ $(document).ready(function() {
             },
         ]
     });
-    
 
-    //NEWS
+    //NEWS  //NEWS DETAIL
     $('.slide').slick({
         autoplay: true,
         autoplaySpeed: 5000,
@@ -156,15 +146,13 @@ $(document).ready(function() {
       ]
   });
     //COMMON DISEASES
-    $('.common-slide').slick({
+    $('.common .common-slide').slick({
         autoplay: false,
         autoplaySpeed: 5000,
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
-        arrows: true,
-        prevArrow: $(".button-common-prev"),
-        nextArrow: $(".button-common-next"),
+        arrows: false,
         responsive: [
           {
             breakpoint: 1024,
@@ -179,12 +167,41 @@ $(document).ready(function() {
             settings: {
               arrows: true,
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               dots: true,
             }
           },
       ]
     });
+
+
+  //COMMON PCO DETAIL
+    $(".slide-detail").slick({
+      autoplay: true,
+      autoplaySpeed: 5000,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: true,
+      prevArrow: $(".button-detail-prev"),
+      nextArrow: $(".button-detail-next"),
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+    ]
+  });
 
     
 
